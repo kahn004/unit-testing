@@ -1,0 +1,24 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+#Icon?
+ehthumbs.db
+Thumbs.db
+
+.AppleDouble
+.LSOverride
+
+node_modules
+npm-debug.log
+
+build.txt
+
+.vscode
+.idea/*
+*.iml
+.sass-cache/*
+*.err
