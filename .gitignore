@@ -22,3 +22,5 @@ build.txt
 *.iml
 .sass-cache/*
 *.err
+
+.swp
