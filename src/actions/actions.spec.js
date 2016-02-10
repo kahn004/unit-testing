@@ -12,4 +12,13 @@ describe('Actions', () => {
 		var expected = { type: 'DECREMENT_COUNTER' }
 		expect(CounterActions.decrement()).toEqual(expected)
 	})
+
+	it('should create an action to add a todo', () => {
+		var text = 'Laugh out loud'
+		var expectedAction = {
+			type: 'ADD_TODO',
+			text
+		}
+		expect(CounterActions.addTodo(text)).toEqual(expectedAction)
+	})
 })
