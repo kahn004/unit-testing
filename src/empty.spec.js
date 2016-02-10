@@ -1,6 +1,6 @@
 import expect from 'expect'
 
-describe('empty', () => {
+describe('Empty', () => {
 
 	it('should work', () => {
 		expect(true).toEqual(true)

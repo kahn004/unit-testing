@@ -4,7 +4,7 @@ import {
 	DECREMENT_COUNTER
 } from '../actions/actions'
 
-export default function counter (state = 0, action) {
+const counter = (state = 0, action) => {
 	switch (action.type) {
 		case INCREMENT_COUNTER:
 			return state + 1

@@ -1,7 +1,7 @@
 import expect from 'expect'
 import createId from './createId'
 
-describe('createId', () => {
+describe('CreateId', () => {
 
 	it('should convert a description into a unique id', () => {
 		var actual = createId(123, 'Cool example description')
